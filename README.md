@@ -1,12 +1,13 @@
 # Daily-task-organizer
 
-
 ## User Story
+
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
 ## Acceptance Criteria
+
 GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
@@ -24,6 +25,7 @@ THEN the saved events persist
 ![Screenshot](./assets/Daily%20schedule%20screenshot.png)
 
 ## Links
-## [Github Pages](https://sudo-apt-install.github.io/daily-taskl-organizer/)
+
+## [Github Pages](https://sudo-apt-install.github.io/daily-task-organizer/)
 
 ## [Repository](https://github.com/sudo-apt-install/daily-task-organizer)
