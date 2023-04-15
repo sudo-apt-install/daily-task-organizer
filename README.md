@@ -21,5 +21,9 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+![Screenshot](./assets/Daily%20schedule%20screenshot.png)
+
 ## Links
-[Github Pages](https://sudo-apt-install.github.io/daily-taskl-organizer/)
+## [Github Pages](https://sudo-apt-install.github.io/daily-taskl-organizer/)
+
+## [Repository](https://github.com/sudo-apt-install/daily-task-organizer)
