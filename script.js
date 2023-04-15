@@ -1,7 +1,13 @@
-
 // TODO: Add code to display the current date in the header of the page.
-var today = dayjs();
-$("#currentDay").text(today.format("dddd, MMM D, YYYY, h:mm a"));
+
+function displayTime() {
+  var today = dayjs();
+  
+  $("#currentDay").text(today.format("dddd, MMM D, YYYY [at] h:mm:ss a"));
+}
+
+displayTime();
+setInterval(displayTime, 1000);
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that the code isn't run until the browser has finished rendering all the elements
 $(document).ready(function () {
@@ -43,7 +49,7 @@ $(document).ready(function () {
     $(".time-block").each(function () {
       // Get the hour of this time block (extracted from its id)
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
-  
+
       // Compare the block hour to the current hour and apply the appropriate class
       if (blockHour < currentTime) {
         $(this).removeClass("future");
@@ -58,7 +64,7 @@ $(document).ready(function () {
         $(this).removeClass("present");
         $(this).addClass("future");
       }
-    });;
+    });
 
     // TODO: Add code to get any user input that was saved in localStorage and set the values of the corresponding textarea elements.
     $9.append(localStorage.getItem("9AM"));
