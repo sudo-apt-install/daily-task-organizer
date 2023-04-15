@@ -1,4 +1,4 @@
-# daily-task-organizer
+# Daily-task-organizer
 
 
 ## User Story
@@ -21,5 +21,5 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-# Links
+## Links
 [Github Pages](https://sudo-apt-install.github.io/daily-taskl-organizer/)
